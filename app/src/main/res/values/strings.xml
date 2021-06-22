@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Timetable for HSE FE</string>
+    <string name="timetable_students_string">Расписание для студентов</string>
+    <string name="timetable_staff_string">Расписание для преподавателя</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="timetable_day_label">Расписание на день</string>
+    <string name="timetable_week_label">Расписание на неделю</string>
+    <string name="choose_group_label">Выберите группу:</string>
+    <string name="settings_string">Настройки</string>
+    <string name="write_name_string">Укажите ваше имя</string>
+    <string name="add_photo_string">Укажите ваше фото:</string>
+    <string name="capture_photo_string">Сделать фото</string>
+    <string name="current_light_string">Текущая освещённость:</string>
+    <string name="save_string">Сохранить</string>
+    <string name="sensors_list_string">Список доступных сенсеров:</string>
+    <string name="photo_saved_string">Фото сохранено</string>
+    <string name="should_permit_title_string">Необходимо предоставить права</string>
+    <string name="should_permit_text_string">Для добавления фото необходимо предоставить права к камере</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:paddingVertical="30dp"
+        app:srcCompat="@drawable/hse_image" />
+
+    <Button
+        android:id="@+id/button_students"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="5dp"
+        android:layout_weight="1"
+        android:text="@string/timetable_students_string"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_staff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:text="@string/timetable_staff_string"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_settings"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="?attr/colorPrimaryVariant"
+        android:text="@string/settings_string"
+        android:textAlignment="center" />
+
+</LinearLayout>
